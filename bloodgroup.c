@@ -1,23 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-<<<<<<< HEAD
-{ char Name[9999], G[5], answer[10];
-  int i;
-  do
-  {
-    printf("What is your're name? ");
-=======
 { char Name[60], G[5], answer[10];
   int i;
   do
   {
     printf("What is Your name? ");
->>>>>>> df9a198a2d7d37d76b1fbac7a41e52cf2ece8428
     scanf("%s", Name);
     do
     {
-      printf("What is your blood group [A, B, AB, or O]? ");
+      printf("What is youR blood group [A, B, AB, or O]? ");
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
